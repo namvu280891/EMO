@@ -7,189 +7,256 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <!-- ===== NAVIGATION ===== -->
-  <nav id="navbar">
-    <div class="nav-container">
-      <a href="#home" class="nav-logo">
-        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-          <circle cx="60" cy="60" r="58" fill="#F5A800"/>
-          <polygon points="60,14 72,46 106,46 80,66 90,98 60,78 30,98 40,66 14,46 48,46" fill="#8B6200"/>
-          <text x="60" y="70" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="22" fill="#fff" letter-spacing="1">FIC</text>
-        </svg>
-        <div class="logo-text">
-          <span class="logo-name">FlyOne</span>
-          <span class="logo-sub">Investment Corporation</span>
-        </div>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#ecosystem">Ecosystem</a></li>
-        <li><a href="#vision">Vision</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#milestones">Milestones</a></li>
-        <li><a href="#partners">Partners</a></li>
-        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+<!-- ===== NAV ===== -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">
+      <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+        <circle cx="60" cy="60" r="58" fill="#F5A800"/>
+        <polygon points="60,14 72,46 106,46 80,66 90,98 60,78 30,98 40,66 14,46 48,46" fill="#8B6200"/>
+        <text x="60" y="70" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="22" fill="#fff" letter-spacing="1">FIC</text>
+      </svg>
+      <div class="logo-text">
+        <span class="logo-name">FlyOne</span>
+        <span class="logo-sub">Investment Corporation</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#ecosystem">Ecosystem</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#milestones">Milestones</a></li>
+      <li><a href="#partners">Partners</a></li>
+      <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
-  <!-- ===== HERO ===== -->
-  <section id="home" class="hero">
-    <div class="hero-bg">
-      <div class="hero-overlay"></div>
-      <div class="hero-particles" id="particles"></div>
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-grid-lines"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Est. 2021 · Ho Chi Minh City, Vietnam
     </div>
-    <div class="hero-content">
-      <div class="hero-badge">Est. 2021 · Ho Chi Minh City, Vietnam</div>
-      <h1 class="hero-title">
-        Flyone Investment<br/>
-        <span class="hero-title-accent">Corporation</span>
-      </h1>
-      <p class="hero-subtitle">
-        A leading business &amp; financial group with optimal efficiency priorities in investment and business development — building a thriving ecosystem across Aviation, Travel, Real Estate, Technology, Cargo &amp; Mobility.
-      </p>
-      <p class="hero-tagline">SUCCEED TOGETHER</p>
-      <div class="hero-actions">
-        <a href="#ecosystem" class="btn btn-primary">Our Ecosystem</a>
-        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    <h1 class="hero-title">
+      Flyone Investment<br/>
+      <span class="hero-title-accent">Corporation</span>
+    </h1>
+    <p class="hero-subtitle">
+      A leading business &amp; financial group with optimal efficiency priorities in investment and business development — building a thriving ecosystem across Aviation, Travel, Real Estate, Technology, Cargo &amp; Mobility.
+    </p>
+    <p class="hero-tagline">✦ &nbsp; SUCCEED TOGETHER &nbsp; ✦</p>
+    <div class="hero-actions">
+      <a href="#ecosystem" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M12 8l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Our Ecosystem
+      </a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-stats-bar">
+      <div class="hero-stat"><strong>6+</strong><span>Companies</span></div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat"><strong>20+</strong><span>Branches</span></div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat"><strong>1000+</strong><span>B2B Agents</span></div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat"><strong>15+</strong><span>Airline Partners</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-logo-wrap">
+          <div class="about-ring about-ring-1"></div>
+          <div class="about-ring about-ring-2"></div>
+          <div class="about-ring about-ring-3"></div>
+          <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" class="about-logo-svg">
+            <circle cx="110" cy="110" r="106" fill="#F5A800"/>
+            <polygon points="110,24 126,72 178,72 136,100 152,148 110,120 68,148 84,100 42,72 94,72" fill="#8B6200"/>
+            <text x="110" y="120" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="40" fill="#fff" letter-spacing="2">FIC</text>
+            <defs><path id="c1" d="M 32 165 Q 110 215 188 165"/></defs>
+            <text font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="#7B5200" letter-spacing="3">
+              <textPath href="#c1" startOffset="50%" text-anchor="middle">SUCCEED TOGETHER</textPath>
+            </text>
+          </svg>
+        </div>
+        <div class="about-floating-card fc-1">
+          <div class="fc-icon">🏢</div>
+          <div><strong>2021</strong><span>Founded</span></div>
+        </div>
+        <div class="about-floating-card fc-2">
+          <div class="fc-icon">🌏</div>
+          <div><strong>Multi-sector</strong><span>Ecosystem</span></div>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-label">Who We Are</div>
+        <h2 class="section-title">FlyOne Investment<br/>Corporation</h2>
+        <p class="about-lead">A business group – financial group with optimal efficiency priorities in investment and business development strategies.</p>
+        <p class="about-text">Founded in 2021 in Ho Chi Minh City, FIC has rapidly built a diversified conglomerate spanning aviation, travel, real estate, technology, cargo logistics, and mobility — all operating as one integrated ecosystem.</p>
+        <blockquote class="about-quote">
+          <svg width="28" height="20" viewBox="0 0 28 20" fill="none"><path d="M0 20V12C0 5.373 4.477 1.12 13.43 0l1.142 2.857C9.905 3.968 7.619 6.032 7.048 9H12V20H0zm16 0V12c0-6.627 4.477-10.88 13.43-11L30.57 3.857C25.905 4.968 23.619 7.032 23.048 10H28V20H16z" fill="#F5A800" opacity=".4"/></svg>
+          People are important assets &amp; social prosperity is our business philosophy.
+        </blockquote>
+        <div class="about-pills">
+          <span class="pill">✈ Aviation Solutions</span>
+          <span class="pill">🏡 Real Estate</span>
+          <span class="pill">📈 Securities</span>
+          <span class="pill">🚗 Mobility</span>
+          <span class="pill">💻 Technology</span>
+          <span class="pill">✈ Cargo</span>
+        </div>
+        <a href="#ecosystem" class="btn btn-primary" style="margin-top:1.5rem;">Explore Our Ecosystem</a>
       </div>
     </div>
-    <div class="hero-scroll">
-      <span>Scroll Down</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== ABOUT ===== -->
-  <section id="about" class="section about">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-visual">
-          <div class="about-logo-large">
-            <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-              <circle cx="110" cy="110" r="106" fill="#F5A800"/>
-              <circle cx="110" cy="110" r="96" fill="none" stroke="#D4860A" stroke-width="2" stroke-dasharray="8 4"/>
-              <polygon points="110,24 126,72 178,72 136,100 152,148 110,120 68,148 84,100 42,72 94,72" fill="#8B6200"/>
-              <text x="110" y="120" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="40" fill="#fff" letter-spacing="2">FIC</text>
-              <defs>
-                <path id="curve" d="M 32 165 Q 110 215 188 165"/>
-              </defs>
-              <text font-family="Montserrat,sans-serif" font-weight="700" font-size="11" fill="#7B5200" letter-spacing="3">
-                <textPath href="#curve" startOffset="50%" text-anchor="middle">SUCCEED TOGETHER</textPath>
-              </text>
+<!-- ===== ECOSYSTEM ===== -->
+<section id="ecosystem" class="section ecosystem">
+  <div class="eco-bg-pattern"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-header center">
+      <div class="section-label">Our Group</div>
+      <h2 class="section-title">The FIC Ecosystem</h2>
+      <p class="section-desc">Six synergistic member companies forming a complete, integrated business ecosystem.</p>
+    </div>
+
+    <!-- Hub -->
+    <div class="eco-hub-wrap reveal">
+      <div class="eco-hub-ring"></div>
+      <div class="eco-hub">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+          <circle cx="50" cy="50" r="48" fill="#F5A800"/>
+          <polygon points="50,10 62,42 96,42 70,62 80,94 50,74 20,94 30,62 4,42 38,42" fill="#8B6200"/>
+          <text x="50" y="58" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="18" fill="#fff">FIC</text>
+        </svg>
+        <div class="eco-hub-text">
+          <strong>Flyone Investment Corporation</strong>
+          <span>Real estate · Securities · M&amp;A</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 companies -->
+    <div class="eco-grid">
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#0D47A1,#1976D2);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <path d="M6 32 L18 10 L24 18 L36 6 L42 14 L30 36 Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M6 40 Q24 44 42 40" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
             </svg>
           </div>
-          <div class="about-decoration"></div>
+          <div class="eco-card-badge">Aviation</div>
         </div>
-        <div class="about-content">
-          <div class="section-label">Who We Are</div>
-          <h2 class="section-title">FlyOne Investment Corporation</h2>
-          <p class="about-lead">
-            FIC is a business group – financial group with optimal efficiency priorities in investment and business development strategies.
-          </p>
-          <p class="about-text">
-            Founded in 2021 and headquartered in Ho Chi Minh City, FlyOne Investment Corporation has rapidly grown into a diversified conglomerate spanning aviation solutions, travel, real estate, technology, cargo logistics, and mobility services.
-          </p>
-          <p class="about-text">
-            Our business philosophy: <strong>"People are important assets &amp; social prosperity is our business philosophy."</strong> We build lasting value for shareholders, employees, customers, and the broader community.
-          </p>
-          <div class="about-highlights">
-            <div class="highlight-item">
-              <div class="highlight-icon">★</div>
-              <span>Real estate &amp; securities investment</span>
-            </div>
-            <div class="highlight-item">
-              <div class="highlight-icon">★</div>
-              <span>Aviation solutions &amp; airport services</span>
-            </div>
-            <div class="highlight-item">
-              <div class="highlight-icon">★</div>
-              <span>Technology, travel &amp; mobility ecosystem</span>
-            </div>
-          </div>
-          <a href="#ecosystem" class="btn btn-primary">Explore Our Ecosystem</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== ECOSYSTEM ===== -->
-  <section id="ecosystem" class="section ecosystem">
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">Our Group</div>
-        <h2 class="section-title">The FIC Ecosystem</h2>
-        <p class="section-desc">Six synergistic member companies forming a complete, integrated business ecosystem — from aviation to technology, travel to mobility.</p>
-      </div>
-
-      <div class="eco-center">
-        <div class="eco-hub">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="70" height="70">
-            <circle cx="50" cy="50" r="48" fill="#F5A800"/>
-            <polygon points="50,12 61,40 92,40 68,57 77,85 50,68 23,85 32,57 8,40 39,40" fill="#8B6200"/>
-            <text x="50" y="58" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="18" fill="#fff">FIC</text>
-          </svg>
-          <div class="eco-hub-label">Flyone Investment<br/>Corporation</div>
-          <div class="eco-hub-subs">Real estate · Securities · M&amp;A</div>
-        </div>
-      </div>
-
-      <div class="eco-grid">
-        <div class="eco-card eco-flyone">
-          <div class="eco-logo-badge" style="background:#1A6BAF;">
-            <span>flyone</span>
-          </div>
-          <h3>Flyone Aviation Solutions</h3>
-          <p>Flyone Aviation Solutions JSC Company</p>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#1976D2;">flyone</div>
+          <h3>Aviation Solutions</h3>
+          <p>IATA Accredited · One-Stop Aviation Services</p>
           <ul>
-            <li>General Customer Agency (GSA)</li>
-            <li>Air Charter Center</li>
-            <li>Airport Services &amp; Supervision</li>
+            <li>Cargo &amp; Passenger GSA</li>
             <li>B2B Ticketing Platform</li>
-            <li>Cargo GSSA</li>
+            <li>Air Charter Center</li>
+            <li>Airport Supervision</li>
             <li>Operation Licenses &amp; Permits</li>
           </ul>
         </div>
-        <div class="eco-card eco-travelone">
-          <div class="eco-logo-badge" style="background:#F47920;">
-            <span>Travel<b>One</b></span>
+      </div>
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#E65100,#F57C00);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <circle cx="24" cy="18" r="10" stroke="#fff" stroke-width="2.5"/>
+              <path d="M10 38 C10 30 16 26 24 26 C32 26 38 30 38 38" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M30 18 L36 10" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+              <path d="M36 10 L42 14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
           </div>
-          <h3>Travel One</h3>
-          <p>Travel One JSC Company</p>
+          <div class="eco-card-badge">Travel</div>
+        </div>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#E65100;">Travel <b>One</b></div>
+          <h3>Travel One JSC</h3>
+          <p>Value in Every Journey</p>
           <ul>
             <li>Luxury &amp; VIP Tours</li>
             <li>MICE &amp; Charter Trips</li>
-            <li>Wellness Tours</li>
-            <li>Corporate &amp; Executive Travel</li>
-            <li>Charter Flights</li>
+            <li>Corporate Travel</li>
+            <li>Charter Flights (Private Jet)</li>
+            <li>Wellness &amp; Discovery Tours</li>
           </ul>
         </div>
-        <div class="eco-card eco-fas">
-          <div class="eco-logo-badge" style="background:#E8501A;">
-            <span>FAS</span>
+      </div>
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#B71C1C,#E53935);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <rect x="6" y="16" width="36" height="20" rx="3" stroke="#fff" stroke-width="2.5"/>
+              <path d="M14 16 V12 C14 8 18 6 22 6 H26 C30 6 34 8 34 12 V16" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+              <line x1="6" y1="24" x2="42" y2="24" stroke="#fff" stroke-width="1.5" stroke-dasharray="3 2"/>
+              <circle cx="16" cy="36" r="3" fill="#fff"/>
+              <circle cx="32" cy="36" r="3" fill="#fff"/>
+            </svg>
           </div>
-          <h3>FAS Cargo Vietnam</h3>
-          <p>FAS Cargo Vietnam JSC Company</p>
+          <div class="eco-card-badge">Cargo</div>
+        </div>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#C62828;">FAS</div>
+          <h3>FAS Cargo Vietnam JSC</h3>
+          <p>Delivering Happiness</p>
           <ul>
-            <li>GSA – General Agent of Goods</li>
+            <li>General Agent of Goods</li>
             <li>Specialized Shipping Routes</li>
-            <li>Ticketing Platform</li>
             <li>Air Charter Center</li>
+            <li>International Routes (BKK, SIN, KUL...)</li>
           </ul>
         </div>
-        <div class="eco-card eco-flytech">
-          <div class="eco-logo-badge" style="background:#2E86AB;">
-            <span>Flytech</span>
+      </div>
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#1B5E20,#388E3C);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <rect x="8" y="10" width="32" height="22" rx="3" stroke="#fff" stroke-width="2.5"/>
+              <line x1="8" y1="18" x2="40" y2="18" stroke="#fff" stroke-width="1.5"/>
+              <rect x="14" y="22" width="8" height="5" rx="1" fill="#fff" opacity=".7"/>
+              <rect x="26" y="22" width="8" height="5" rx="1" fill="#fff" opacity=".7"/>
+              <line x1="18" y1="32" x2="30" y2="32" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+              <line x1="24" y1="32" x2="24" y2="38" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
           </div>
+          <div class="eco-card-badge">Technology</div>
+        </div>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#2E7D32;">Flytech</div>
           <h3>Flytech Technology</h3>
-          <p>Flytech Technology and Services Co., Ltd.</p>
+          <p>Linking People · IT Solutions</p>
           <ul>
             <li>Technology &amp; Infrastructure</li>
             <li>Integrated IT Solutions</li>
@@ -197,25 +264,47 @@
             <li>Digitalization Systems</li>
           </ul>
         </div>
-        <div class="eco-card eco-carhub">
-          <div class="eco-logo-badge" style="background:#F5A800;">
-            <span style="color:#111;">carhub</span>
+      </div>
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#F57F17,#FBC02D);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <rect x="4" y="18" width="40" height="16" rx="4" stroke="#fff" stroke-width="2.5"/>
+              <path d="M10 18 V14 C10 10 14 8 18 8 H30 C34 8 38 10 38 14 V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="12" cy="36" r="4" stroke="#fff" stroke-width="2"/>
+              <circle cx="36" cy="36" r="4" stroke="#fff" stroke-width="2"/>
+              <rect x="20" y="22" width="8" height="4" rx="1" fill="#fff" opacity=".8"/>
+            </svg>
           </div>
-          <h3>Carhub</h3>
-          <p>Carhub JSC Company</p>
+          <div class="eco-card-badge">Mobility</div>
+        </div>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#F57F17;">carhub</div>
+          <h3>Carhub JSC</h3>
+          <p>Car Rental &amp; Automotive Services</p>
           <ul>
-            <li>Car Rental Services</li>
+            <li>Car Rental Platform (50+ cars)</li>
             <li>Buying &amp; Selling Cars</li>
-            <li>At least 50 rental cars</li>
-            <li>Car-technical supports</li>
+            <li>Car Technical Supports</li>
+            <li>20+ Branches Vietnam &amp; Abroad</li>
           </ul>
         </div>
-        <div class="eco-card eco-elite">
-          <div class="eco-logo-badge" style="background:#111;">
-            <span style="color:#F5A800;">Elite24</span>
+      </div>
+
+      <div class="eco-card reveal">
+        <div class="eco-card-header" style="background:linear-gradient(135deg,#4A148C,#7B1FA2);">
+          <div class="eco-card-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="32" height="32">
+              <path d="M24 8 L30 18 L42 20 L33 29 L35 42 L24 36 L13 42 L15 29 L6 20 L18 18 Z" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+            </svg>
           </div>
-          <h3>Elite24</h3>
-          <p>Elite24 Travel &amp; Hotel</p>
+          <div class="eco-card-badge">Hospitality</div>
+        </div>
+        <div class="eco-card-body">
+          <div class="eco-brand" style="color:#6A1B9A;">Elite<span style="color:#F5A800;">24</span></div>
+          <h3>Elite24 Travel &amp; Hotel</h3>
+          <p>Premium Hospitality &amp; Experiences</p>
           <ul>
             <li>Luxury Travel Packages</li>
             <li>Hotel Reservations</li>
@@ -224,632 +313,825 @@
           </ul>
         </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== VISION, MISSION, VALUES ===== -->
-  <section id="vision" class="section vision">
-    <div class="vision-bg-text">FIC</div>
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">Our Foundation</div>
-        <h2 class="section-title">Vision, Mission &amp; Core Values</h2>
-        <p class="section-desc">The principles that guide every decision we make and every partnership we build.</p>
-      </div>
+<!-- ===== VISION / MISSION / VALUES ===== -->
+<section id="vision" class="section vision">
+  <div class="vision-bg-text">FIC</div>
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label">Our Foundation</div>
+      <h2 class="section-title">Vision, Mission &amp; Core Values</h2>
+      <p class="section-desc">The principles that guide every decision we make and every partnership we build.</p>
+    </div>
 
-      <div class="vm-grid">
-        <div class="vm-card">
-          <div class="vm-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-              <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/>
-              <circle cx="24" cy="24" r="3" fill="currentColor"/>
-              <line x1="24" y1="4" x2="24" y2="11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <line x1="24" y1="37" x2="24" y2="44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <line x1="4" y1="24" x2="11" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <line x1="37" y1="24" x2="44" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Our Vision</h3>
-          <p>To be a leading business group and financial group with optimal efficiency priorities in investment and business development — achieving a 10-time increase in capitalization by 2025, with a nationwide branch network from Ho Chi Minh City, Ha Noi, Da Nang, Da Lat, Phu Quoc, Nha Trang to Hai Phong and beyond internationally.</p>
+    <div class="vm-grid">
+      <div class="vm-card reveal">
+        <div class="vm-card-accent"></div>
+        <div class="vm-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            <line x1="24" y1="4" x2="24" y2="11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="24" y1="37" x2="24" y2="44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="4" y1="24" x2="11" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="37" y1="24" x2="44" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
         </div>
-        <div class="vm-card">
-          <div class="vm-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-              <circle cx="24" cy="12" r="5" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M14 44 L24 20 L34 44" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-              <line x1="17" y1="35" x2="31" y2="35" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Our Mission</h3>
-          <ol class="mission-list">
-            <li>Providing specific products and services with professionalism and high service quality to customers.</li>
-            <li>Developing sustainably; increasing material and spiritual value for our members.</li>
-            <li>Ensuring efficient use of capital for investors and shareholders.</li>
-            <li>Contributing the best values to society and to the community.</li>
-          </ol>
+        <h3>Vision</h3>
+        <p>To be a leading business group &amp; financial group with optimal efficiency in investment and business development — achieving <strong>10x capitalization by 2025</strong> with a nationwide and international branch network.</p>
+        <div class="vm-locations">
+          <span>🏙 Ho Chi Minh</span><span>🏙 Ha Noi</span><span>🏖 Da Nang</span><span>🌿 Da Lat</span><span>🏝 Phu Quoc</span><span>🌊 Nha Trang</span><span>⚓ Hai Phong</span>
         </div>
       </div>
-
-      <div class="values-grid">
-        <div class="value-card">
-          <div class="value-num">01</div>
-          <h4>Be Kind to Shareholders</h4>
-          <p>Ensuring efficient use of capital and maximum return on investment for our shareholders.</p>
+      <div class="vm-card reveal">
+        <div class="vm-card-accent"></div>
+        <div class="vm-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <circle cx="24" cy="12" r="6" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M14 44 L24 20 L34 44" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <line x1="17" y1="35" x2="31" y2="35" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
         </div>
-        <div class="value-card">
-          <div class="value-num">02</div>
-          <h4>Be Kind to Colleagues</h4>
-          <p>Creating a supportive, professional environment where every team member can thrive and grow.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-num">03</div>
-          <h4>Be Kind to Customers</h4>
-          <p>Delivering professionalism and exceptional service quality in every interaction.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-num">04</div>
-          <h4>Responsibility to Community</h4>
-          <p>Contributing the best values to society and embracing corporate social responsibilities.</p>
+        <h3>Mission</h3>
+        <div class="mission-items">
+          <div class="mission-item"><span class="mi-num">01</span><p>Providing specific products and services with professionalism and high service quality to customers.</p></div>
+          <div class="mission-item"><span class="mi-num">02</span><p>Developing sustainably; increasing material and spiritual value for our members.</p></div>
+          <div class="mission-item"><span class="mi-num">03</span><p>Ensuring efficient use of capital for investors and shareholders.</p></div>
+          <div class="mission-item"><span class="mi-num">04</span><p>Contributing the best values to society and to the community.</p></div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- ===== INVESTMENT PRINCIPLES ===== -->
-  <section class="section invest-principles">
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">How We Invest</div>
-        <h2 class="section-title">Investment Principles</h2>
-        <p class="section-desc">"People are important assets &amp; social prosperity is our business philosophy."</p>
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="value-icon-wrap" style="--c:#F5A800;">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <path d="M24 4 L28 16 L40 16 L30 24 L34 36 L24 28 L14 36 L18 24 L8 16 L20 16 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="value-num">01</div>
+        <h4>Be Kind to<br/>Shareholders</h4>
+        <p>Ensuring efficient use of capital and maximum return on investment for our shareholders.</p>
       </div>
-      <div class="principles-grid">
-        <div class="principle-card">
-          <div class="principle-num">01</div>
-          <div class="principle-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" stroke-width="2.5"/>
-              <line x1="14" y1="18" x2="34" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <line x1="14" y1="24" x2="28" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <line x1="14" y1="30" x2="24" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h4>Long-Term Vision</h4>
-          <p>Invest with a long-term vision, prioritizing sustainable growth over short-term gains.</p>
+      <div class="value-card reveal">
+        <div class="value-icon-wrap" style="--c:#1976D2;">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <circle cx="16" cy="16" r="8" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="32" cy="16" r="8" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M4 40 C4 32 10 28 16 28 C20 28 24 30 24 30 C24 30 28 28 32 28 C38 28 44 32 44 40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
         </div>
-        <div class="principle-card">
-          <div class="principle-num">02</div>
-          <div class="principle-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M16 24 C16 18 20 14 24 14 C28 14 32 18 32 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <line x1="24" y1="28" x2="24" y2="34" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h4>Ecosystem Competitiveness</h4>
-          <p>Developing sustainable competitiveness among companies within the FIC Ecosystem.</p>
+        <div class="value-num">02</div>
+        <h4>Be Kind to<br/>Colleagues</h4>
+        <p>Creating a supportive, professional environment where every team member can thrive and grow.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon-wrap" style="--c:#E65100;">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <path d="M24 6 C16 6 10 12 10 20 C10 28 18 34 24 42 C30 34 38 28 38 20 C38 12 32 6 24 6 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <circle cx="24" cy="20" r="5" stroke="currentColor" stroke-width="2"/>
+          </svg>
         </div>
-        <div class="principle-card">
-          <div class="principle-num">03</div>
-          <div class="principle-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <circle cx="16" cy="20" r="7" stroke="currentColor" stroke-width="2.5"/>
-              <circle cx="32" cy="20" r="7" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M4 40 C4 32 10 28 16 28 C22 28 28 32 28 40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M26 30 C28 28 30 28 32 28 C38 28 44 32 44 40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h4>Collective Consensus</h4>
-          <p>All decisions are based on the principle of collective consensus and shared agreement.</p>
+        <div class="value-num">03</div>
+        <h4>Be Kind to<br/>Customers</h4>
+        <p>Delivering professionalism and exceptional service quality in every interaction.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon-wrap" style="--c:#2E7D32;">
+          <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M16 24 L20 28 L32 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
-        <div class="principle-card">
-          <div class="principle-num">04</div>
-          <div class="principle-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <path d="M24 6 L30 18 L44 20 L34 30 L36 44 L24 38 L12 44 L14 30 L4 20 L18 18 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h4>Risk Management</h4>
-          <p>Always manage risk carefully and rigorously when evaluating every investment opportunity.</p>
-        </div>
+        <div class="value-num">04</div>
+        <h4>Responsibility to<br/>Community</h4>
+        <p>Contributing the best values to society and embracing corporate social responsibilities.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== SERVICES ===== -->
-  <section id="services" class="section services">
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">What We Do</div>
-        <h2 class="section-title">Core Business Areas</h2>
-        <p class="section-desc">FIC deploys capital and expertise across six major verticals, each driving the ecosystem forward.</p>
+<!-- ===== INVESTMENT PRINCIPLES ===== -->
+<section class="section invest-principles">
+  <div class="ip-bg-shapes">
+    <div class="ip-shape ip-s1"></div>
+    <div class="ip-shape ip-s2"></div>
+  </div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-header center">
+      <div class="section-label">How We Invest</div>
+      <h2 class="section-title" style="color:#fff;">Investment Principles</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,.6);font-style:italic;">"People are important assets &amp; social prosperity is our business philosophy."</p>
+    </div>
+    <div class="principles-grid">
+      <div class="principle-card reveal">
+        <div class="principle-num-bg">01</div>
+        <div class="principle-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" width="36" height="36">
+            <rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="14" y1="16" x2="34" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="14" y1="22" x2="28" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="14" y1="28" x2="24" y2="28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M28 32 L32 36 L40 26" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h4>Long-Term Vision</h4>
+        <p>Invest with a long-term vision, prioritizing sustainable and compounding growth over short-term gains.</p>
       </div>
-      <div class="services-grid">
+      <div class="principle-card reveal">
+        <div class="principle-num-bg">02</div>
+        <div class="principle-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" width="36" height="36">
+            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
+            <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            <line x1="24" y1="8" x2="24" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="24" y1="44" x2="24" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="8" y1="24" x2="4" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="44" y1="24" x2="40" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h4>Ecosystem Competitiveness</h4>
+        <p>Developing sustainable competitiveness among all companies within the FIC Ecosystem.</p>
+      </div>
+      <div class="principle-card reveal">
+        <div class="principle-num-bg">03</div>
+        <div class="principle-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" width="36" height="36">
+            <circle cx="14" cy="18" r="7" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="34" cy="18" r="7" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M4 40 C4 32 9 28 14 28 C19 28 24 32 24 32 C24 32 29 28 34 28 C39 28 44 32 44 40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="24" y1="18" x2="24" y2="32" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/>
+          </svg>
+        </div>
+        <h4>Collective Consensus</h4>
+        <p>All strategic decisions are based on the principle of collective consensus and shared agreement.</p>
+      </div>
+      <div class="principle-card reveal">
+        <div class="principle-num-bg">04</div>
+        <div class="principle-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" width="36" height="36">
+            <path d="M24 6 L30 18 L44 20 L34 30 L36 44 L24 38 L12 44 L14 30 L4 20 L18 18 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <line x1="24" y1="14" x2="24" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="26" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h4>Risk Management</h4>
+        <p>Always manage risk carefully and rigorously in evaluating every investment opportunity.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="service-card service-card--featured">
-          <div class="service-badge">Core Business</div>
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <rect x="6" y="20" width="36" height="20" rx="2" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M16 20V14a8 8 0 0116 0v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <rect x="20" y="27" width="8" height="7" rx="1" fill="currentColor"/>
-            </svg>
-          </div>
-          <h3>Real Estate &amp; Securities</h3>
-          <p>Strategic financial investment and real estate across Vietnam. Investing in the FIC ecosystem chain including Airport Ground Handling, Air Support Services, Education, Healthcare, Transport, and Construction.</p>
+<!-- ===== SERVICES ===== -->
+<section id="services" class="section services">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Core Business Areas</h2>
+      <p class="section-desc">FIC deploys capital and expertise across six major verticals, each driving the ecosystem forward.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card service-card--featured reveal">
+        <div class="service-shine"></div>
+        <div class="service-badge">Core Business</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <rect x="6" y="20" width="36" height="20" rx="2" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M16 20V14a8 8 0 0116 0v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="20" y="27" width="8" height="7" rx="1" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Real Estate &amp; Securities</h3>
+        <p>Strategic financial investment and real estate across Vietnam. Building the FIC ecosystem chain.</p>
+        <ul>
+          <li>Financial &amp; real estate investment</li>
+          <li>Securities trading</li>
+          <li>M&amp;A strategies (M&amp;ASTEPS)</li>
+          <li>Airport ground handling</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>Real Estate</span><span>Securities</span><span>M&amp;A</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <path d="M6 32 L18 10 L24 18 L34 6 L42 32" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M6 32 Q24 40 42 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Aviation Solutions</h3>
+        <p>One-stop aviation services as an IATA Accredited Agent with partnerships across major airlines in Vietnam and the region.</p>
+        <ul>
+          <li>Cargo &amp; Passenger GSA</li>
+          <li>B2B Ticketing (1,000+ sub-agents)</li>
+          <li>Air Charter Center</li>
+          <li>Airport Supervision &amp; Services</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>IATA</span><span>GSA</span><span>Charter</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <path d="M8 36 C8 28 12 22 20 20 L22 14 C22 12 24 10 26 10 L36 10 L40 20 C44 22 44 28 44 36" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <ellipse cx="14" cy="36" rx="6" ry="4" stroke="currentColor" stroke-width="2"/>
+            <ellipse cx="38" cy="36" rx="6" ry="4" stroke="currentColor" stroke-width="2"/>
+            <line x1="20" y1="36" x2="32" y2="36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Travel &amp; Tourism</h3>
+        <p>Luxury and corporate travel solutions through Travel One — Vietnam's first air charter hub.</p>
+        <ul>
+          <li>Luxury &amp; VIP tours</li>
+          <li>Corporate &amp; MICE travel</li>
+          <li>Charter flights (private jet)</li>
+          <li>Wellness &amp; discovery tours</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>Luxury</span><span>MICE</span><span>Charter</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <rect x="8" y="10" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="8" y1="18" x2="40" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="2" fill="currentColor"/>
+            <circle cx="20" cy="14" r="2" fill="currentColor"/>
+            <rect x="14" y="22" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="26" y="22" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="18" y1="34" x2="30" y2="34" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Technology &amp; IT</h3>
+        <p>Building the digital backbone of the FIC ecosystem through Flytech — integrated IT solutions for all member companies.</p>
+        <ul>
+          <li>Technology infrastructure</li>
+          <li>Integrated IT solutions</li>
+          <li>Software services</li>
+          <li>Digitalization systems</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>SaaS</span><span>Infrastructure</span><span>IT</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <path d="M8 30 L18 14 L28 22 L38 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="4" y="34" width="8" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
+            <rect x="16" y="28" width="8" height="16" rx="1" stroke="currentColor" stroke-width="2"/>
+            <rect x="28" y="22" width="8" height="22" rx="1" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3>Cargo &amp; Logistics</h3>
+        <p>FAS Cargo Vietnam provides specialized cargo GSA services and shipping routes expanding Vietnam's cargo capabilities.</p>
+        <ul>
+          <li>General agent of goods</li>
+          <li>Specialized shipping routes</li>
+          <li>Cargo charter services</li>
+          <li>International routes (BKK, SIN, KUL, NRT, PEK)</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>Cargo GSSA</span><span>Logistics</span><span>International</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+            <rect x="4" y="18" width="40" height="16" rx="4" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M10 18 V14 C10 10 14 8 18 8 H30 C34 8 38 10 38 14 V18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="12" cy="36" r="5" stroke="currentColor" stroke-width="2"/>
+            <circle cx="36" cy="36" r="5" stroke="currentColor" stroke-width="2"/>
+            <rect x="20" y="22" width="8" height="4" rx="1" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Mobility &amp; Car Services</h3>
+        <p>Carhub provides comprehensive car rental and automotive services with 50+ cars and 20+ branches nationwide.</p>
+        <ul>
+          <li>Car rental platform (50+ cars)</li>
+          <li>Used car market platform</li>
+          <li>Car technical supports</li>
+          <li>20+ branches Vietnam &amp; abroad</li>
+        </ul>
+        <div class="service-tag-bar">
+          <span>Rental</span><span>Platform</span><span>Auto</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="section stats">
+  <div class="stats-bg-anim"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-header center" style="margin-bottom:3rem;">
+      <div class="section-label" style="background:rgba(245,168,0,.15);color:var(--gold);">By The Numbers</div>
+      <h2 class="section-title" style="color:#fff;">Our Track Record</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-icon">🏢</div>
+        <div class="stat-num-row"><span class="stat-number" data-target="6">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Member Companies</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">📍</div>
+        <div class="stat-num-row"><span class="stat-number" data-target="20">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Domestic Branches</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">🤝</div>
+        <div class="stat-num-row"><span class="stat-number" data-target="1000">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">B2B Sub-Agents</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">✈</div>
+        <div class="stat-num-row"><span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Airline Partners</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-icon">📈</div>
+        <div class="stat-num-row"><span class="stat-number" data-target="10">0</span><span class="stat-suffix">x</span></div>
+        <div class="stat-label">Target Capitalization Growth</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MILESTONES ===== -->
+<section id="milestones" class="section milestones">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label">Our Journey</div>
+      <h2 class="section-title">Key Development Milestones 2021–2025</h2>
+      <p class="section-desc">From founding to becoming a leading multi-sector investment corporation across Vietnam and the region.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-line"></div>
+
+      <div class="tl-item tl-left reveal">
+        <div class="tl-dot"><span>2021</span></div>
+        <div class="tl-card">
+          <div class="tl-phase-tag" style="background:#6A1B9A;color:#fff;">Project</div>
+          <h4>Company Establishment</h4>
           <ul>
-            <li>Financial &amp; real estate investment</li>
-            <li>Securities trading</li>
-            <li>M&amp;A strategies (M&amp;ASTEPS)</li>
-            <li>Airport ground handling</li>
+            <li>Company establishment &amp; legal structuring</li>
+            <li>Define strategic goals &amp; investment roadmap</li>
+            <li>Founding of FIC ecosystem vision</li>
           </ul>
         </div>
+      </div>
 
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <path d="M6 32 L18 10 L24 18 L34 6 L42 32" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M6 32 Q24 40 42 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Aviation Solutions</h3>
-          <p>One-stop aviation services as an IATA Accredited Agent with partnerships across major airlines in Vietnam and the region.</p>
+      <div class="tl-item tl-right reveal">
+        <div class="tl-dot"><span>2022</span></div>
+        <div class="tl-card">
+          <div class="tl-phase-tag" style="background:#1565C0;color:#fff;">Prepare</div>
+          <h4>Business Testing &amp; Setup</h4>
           <ul>
-            <li>Cargo &amp; Passenger GSA</li>
-            <li>B2B Ticketing Platform (1,000+ sub-agents)</li>
-            <li>Air Charter Center</li>
-            <li>Airport Supervision &amp; Services</li>
+            <li>Start product testing business</li>
+            <li>Arrangement of apparatus</li>
+            <li>Domestic branches: HAN, DLI, DAD, PQC</li>
+            <li>Focus on creating Shared Value (CSV)</li>
           </ul>
         </div>
+      </div>
 
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <circle cx="24" cy="20" r="12" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M12 36 L36 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M17 36 L15 44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M31 36 L33 44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M20 20 L24 16 L28 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3>Travel &amp; Tourism</h3>
-          <p>Luxury and corporate travel solutions through Travel One, Vietnam's first air charter hub, with high-end tours and executive travel services.</p>
+      <div class="tl-item tl-left reveal">
+        <div class="tl-dot"><span>2023</span></div>
+        <div class="tl-card">
+          <div class="tl-phase-tag" style="background:#2E7D32;color:#fff;">Competition &amp; Dev</div>
+          <h4>Regional Expansion</h4>
           <ul>
-            <li>Luxury &amp; VIP tours</li>
-            <li>Corporate &amp; MICE travel</li>
-            <li>Charter flights (private jet / large aircraft)</li>
-            <li>Wellness &amp; discovery tours</li>
+            <li>Domestic: CXR, HPH, VDH branches</li>
+            <li>International: BKK, SIN, KUL</li>
+            <li>Scale B2B ticketing to 1,000+ sub-agents</li>
           </ul>
         </div>
+      </div>
 
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <rect x="8" y="10" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
-              <line x1="16" y1="38" x2="32" y2="38" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <line x1="24" y1="34" x2="24" y2="38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <rect x="14" y="16" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="26" y1="18" x2="34" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <line x1="26" y1="22" x2="32" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Technology &amp; IT Solutions</h3>
-          <p>Building the digital backbone of the FIC ecosystem through Flytech — providing technology infrastructure and integrated IT solutions for all member companies.</p>
+      <div class="tl-item tl-right reveal">
+        <div class="tl-dot"><span>2024</span></div>
+        <div class="tl-card">
+          <div class="tl-phase-tag" style="background:#E65100;color:#fff;">Focus on PnL</div>
+          <h4>Profitability &amp; Consolidation</h4>
           <ul>
-            <li>Technology infrastructure</li>
-            <li>Integrated IT solutions</li>
-            <li>Software services</li>
-            <li>Digitalization systems</li>
+            <li>Risk &amp; cash flow management</li>
+            <li>Domestic: UIH, VCA, VII branches</li>
+            <li>International: SEL, NRT (Tokyo), PEK (Beijing)</li>
+            <li>Accumulating profits</li>
           </ul>
         </div>
+      </div>
 
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <path d="M8 30 L18 14 L28 22 L38 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <rect x="4" y="34" width="8" height="10" rx="1" stroke="currentColor" stroke-width="2"/>
-              <rect x="16" y="28" width="8" height="16" rx="1" stroke="currentColor" stroke-width="2"/>
-              <rect x="28" y="24" width="8" height="20" rx="1" stroke="currentColor" stroke-width="2"/>
-              <rect x="40" y="18" width="4" height="26" rx="1" fill="currentColor"/>
-            </svg>
-          </div>
-          <h3>Cargo &amp; Logistics</h3>
-          <p>FAS Cargo Vietnam provides specialized cargo GSA services and shipping routes, expanding Vietnam's cargo capabilities internationally.</p>
+      <div class="tl-item tl-left tl-current reveal">
+        <div class="tl-dot tl-dot--now"><span>2025</span></div>
+        <div class="tl-card tl-card--now">
+          <div class="tl-phase-tag" style="background:#F5A800;color:#111;">Scale &amp; Lead</div>
+          <h4>Full Ecosystem Activation</h4>
           <ul>
-            <li>General agent of goods</li>
-            <li>Specialized shipping routes</li>
-            <li>Cargo charter services</li>
-            <li>International routes (BKK, SIN, KUL, NRT, PEK...)</li>
-          </ul>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="34" height="34">
-              <rect x="4" y="18" width="36" height="18" rx="4" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M10 18 V14 C10 10 14 8 18 8 H30 C34 8 38 10 38 14 V18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <circle cx="12" cy="36" r="5" stroke="currentColor" stroke-width="2"/>
-              <circle cx="36" cy="36" r="5" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </div>
-          <h3>Mobility &amp; Car Services</h3>
-          <p>Carhub provides comprehensive car rental and automotive services with at least 50 rental cars and 20+ branches across Vietnam and abroad.</p>
-          <ul>
-            <li>Car rental platform</li>
-            <li>Used car market platform</li>
-            <li>Car technical supports</li>
+            <li>Domestic: Sapa – Lao Cai, Dien Bien</li>
+            <li>International: SFS, MEL (Melbourne)</li>
             <li>20+ branches Vietnam &amp; abroad</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== STATISTICS ===== -->
-  <section class="section stats">
-    <div class="container">
-      <div class="section-header center" style="margin-bottom:3rem;">
-        <div class="section-label">By The Numbers</div>
-        <h2 class="section-title" style="color:#fff;">Our Track Record</h2>
-      </div>
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-number" data-target="6">0</div>
-          <div class="stat-suffix">+</div>
-          <div class="stat-label">Member Companies</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="20">0</div>
-          <div class="stat-suffix">+</div>
-          <div class="stat-label">Domestic Branches</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="1000">0</div>
-          <div class="stat-suffix">+</div>
-          <div class="stat-label">B2B Sub-Agents</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="15">0</div>
-          <div class="stat-suffix">+</div>
-          <div class="stat-label">Airline Partners</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="10">0</div>
-          <div class="stat-suffix">x</div>
-          <div class="stat-label">Target Capitalization Growth</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== MILESTONES ===== -->
-  <section id="milestones" class="section milestones">
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">Our Journey</div>
-        <h2 class="section-title">Key Development Milestones 2021–2025</h2>
-        <p class="section-desc">From founding to becoming a leading multi-sector investment corporation across Vietnam and the region.</p>
-      </div>
-      <div class="timeline">
-        <div class="tl-item tl-left">
-          <div class="tl-dot">2021</div>
-          <div class="tl-card">
-            <div class="tl-phase">Project</div>
-            <h4>Company Establishment</h4>
-            <ul>
-              <li>Company establishment &amp; legal structuring</li>
-              <li>Define strategic goals &amp; investment roadmap</li>
-              <li>Founding of FIC ecosystem vision</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tl-item tl-right">
-          <div class="tl-dot">2022</div>
-          <div class="tl-card">
-            <div class="tl-phase">Prepare</div>
-            <h4>Business Testing &amp; Setup</h4>
-            <ul>
-              <li>Start a product testing business</li>
-              <li>Arrangement of apparatus</li>
-              <li>Domestic branches: HAN, DLI, DAD, PQC</li>
-              <li>Focus on creating Shared Value (CSV)</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tl-item tl-left">
-          <div class="tl-dot">2023</div>
-          <div class="tl-card">
-            <div class="tl-phase">Competition &amp; Development</div>
-            <h4>Regional Expansion</h4>
-            <ul>
-              <li>Domestic: CXR, HPH, VDH branches</li>
-              <li>International: BKK (Bangkok), SIN (Singapore), KUL (Kuala Lumpur)</li>
-              <li>Scale B2B ticketing to 1,000+ sub-agents</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tl-item tl-right">
-          <div class="tl-dot">2024</div>
-          <div class="tl-card">
-            <div class="tl-phase">Focus on PnL</div>
-            <h4>Profitability &amp; Consolidation</h4>
-            <ul>
-              <li>Risk management &amp; financial discipline</li>
-              <li>Cash flow &amp; cost management</li>
-              <li>Domestic: UIH, VCA, VII branches</li>
-              <li>International: SEL, NRT (Tokyo), PEK (Beijing)</li>
-              <li>Accumulating profits</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tl-item tl-left tl-current">
-          <div class="tl-dot tl-dot--active">2025</div>
-          <div class="tl-card tl-card--active">
-            <div class="tl-phase">Scale &amp; Lead</div>
-            <h4>Full Ecosystem Activation</h4>
-            <ul>
-              <li>Domestic: Sapa – Lao Cai, Dien Bien</li>
-              <li>International: SFS, MEL (Melbourne)</li>
-              <li>At least 20 branches Vietnam &amp; abroad</li>
-              <li>10x capitalization milestone target</li>
-              <li>Leading ecosystem: Aviation · Travel · Tech · Cargo · Mobility</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Branch Coverage Table -->
-      <div class="branch-table-wrap">
-        <h3>Branch Development — Affiliate of FIC &amp; Member Companies</h3>
-        <div class="branch-table-scroll">
-          <table class="branch-table">
-            <thead>
-              <tr>
-                <th></th>
-                <th>2022</th>
-                <th>2023</th>
-                <th>2024</th>
-                <th>2025</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Domestic</strong></td>
-                <td>HAN, DLI, DAD, PQC</td>
-                <td>CXR, HPH, VDH</td>
-                <td>UIH, VCA, VII</td>
-                <td>Sapa – Lao Cai, Dien Bien</td>
-              </tr>
-              <tr>
-                <td><strong>International</strong><br/><em>(targeted)</em></td>
-                <td>—</td>
-                <td>BKK, SIN, KUL</td>
-                <td>SEL, NRT, PEK</td>
-                <td>SFS, MEL</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PARTNERS ===== -->
-  <section id="partners" class="section partners">
-    <div class="container">
-      <div class="section-header center">
-        <div class="section-label">Our Network</div>
-        <h2 class="section-title">Aviation &amp; Technology Partners</h2>
-        <p class="section-desc">Flyone Aviation Solutions is an IATA Accredited Agent partnering with leading airlines, GDS systems, and travel platforms across Asia.</p>
-      </div>
-
-      <div class="partner-category">
-        <h4 class="partner-cat-label">Airlines</h4>
-        <div class="partners-grid">
-          <div class="partner-logo"><div class="partner-placeholder p-vn">Vietnam Airlines</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-bam">Bamboo Airways</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-vj">VietJet Air</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-pac">Pacific Airlines</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-vasco">VASCO</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-vtv">Vietravel Airlines</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-nok">NOK Air</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-mai">MAI (Myanmar Airways)</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-spice">SpiceJet</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-premia">Air Premia</div></div>
-        </div>
-      </div>
-
-      <div class="partner-category">
-        <h4 class="partner-cat-label">GDS &amp; Technology Systems</h4>
-        <div class="partners-grid">
-          <div class="partner-logo"><div class="partner-placeholder p-sabre">Sabre</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-amadeus">Amadeus</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-galileo">Galileo by Travelport</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-iata">IATA Accredited</div></div>
-        </div>
-      </div>
-
-      <div class="partner-category">
-        <h4 class="partner-cat-label">Travel &amp; Booking Platforms</h4>
-        <div class="partners-grid">
-          <div class="partner-logo"><div class="partner-placeholder p-agoda">Agoda</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-expedia">Expedia</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-vnr">Vietnam Railways</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-limitless">Limitless Aviation</div></div>
-          <div class="partner-logo"><div class="partner-placeholder p-haiau">Hải Âu Aviation</div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="section-label">Get In Touch</div>
-          <h2 class="section-title">Let's Build the Future Together</h2>
-          <p>Whether you're an investor, business partner, or talent looking to join the FIC ecosystem, we'd love to connect.</p>
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Headquarters</strong>
-                <p>Ho Chi Minh City, Vietnam</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                  <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Email</strong>
-                <p>info@flyonecorp.com</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Phone</strong>
-                <p>+84 (0) 28 xxxx xxxx</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                  <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-                  <path d="M12 2C12 2 16 8 16 12C16 16 12 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                  <path d="M12 2C12 2 8 8 8 12C8 16 12 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                  <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Website</strong>
-                <p>flyonecorp.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-form-wrap">
-          <form class="contact-form" id="contactForm">
-            <div class="form-row">
-              <div class="form-group">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname" placeholder="John" required />
-              </div>
-              <div class="form-group">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname" placeholder="Doe" required />
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="john@example.com" required />
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone" placeholder="+84 xxx xxx xxxx" />
-            </div>
-            <div class="form-group">
-              <label for="interest">Area of Interest</label>
-              <select id="interest" name="interest">
-                <option value="">Select an option</option>
-                <option>Aviation Solutions (Flyone)</option>
-                <option>Travel &amp; Tourism (Travel One)</option>
-                <option>Real Estate &amp; Securities (FIC)</option>
-                <option>Cargo &amp; Logistics (FAS)</option>
-                <option>Technology Solutions (Flytech)</option>
-                <option>Car Rental &amp; Mobility (Carhub)</option>
-                <option>Investment Partnership</option>
-                <option>General Inquiry</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-            <p class="form-note">We'll respond within 24 business hours.</p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="footer-logo">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-              <circle cx="50" cy="50" r="48" fill="#F5A800"/>
-              <polygon points="50,10 62,42 96,42 70,62 80,94 50,74 20,94 30,62 4,42 38,42" fill="#8B6200"/>
-              <text x="50" y="58" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="18" fill="#fff">FIC</text>
-            </svg>
-            <div>
-              <span class="footer-logo-name">FlyOne</span>
-              <span class="footer-logo-sub">Investment Corporation</span>
-            </div>
-          </div>
-          <p class="footer-desc">A leading business &amp; financial group building a thriving ecosystem across Aviation, Travel, Real Estate, Technology, Cargo, and Mobility. <strong style="color:var(--gold);">Succeed Together.</strong></p>
-          <div class="footer-social">
-            <a href="#" aria-label="LinkedIn" class="social-link">in</a>
-            <a href="#" aria-label="Facebook" class="social-link">f</a>
-            <a href="#" aria-label="Website" class="social-link">W</a>
-          </div>
-        </div>
-        <div class="footer-links">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="#about">About FIC</a></li>
-            <li><a href="#vision">Vision &amp; Mission</a></li>
-            <li><a href="#milestones">Milestones</a></li>
-            <li><a href="#ecosystem">Our Ecosystem</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Member Companies</h4>
-          <ul>
-            <li><a href="#ecosystem">Flyone Aviation Solutions</a></li>
-            <li><a href="#ecosystem">Travel One</a></li>
-            <li><a href="#ecosystem">FAS Cargo Vietnam</a></li>
-            <li><a href="#ecosystem">Flytech Technology</a></li>
-            <li><a href="#ecosystem">Carhub</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:info@flyonecorp.com">info@flyonecorp.com</a></li>
-            <li><a href="#contact">Get in Touch</a></li>
-            <li><a href="#partners">Our Partners</a></li>
-            <li><a href="#">Careers</a></li>
+            <li>10x capitalization milestone target</li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 FlyOne Investment Corporation. All rights reserved.</p>
-        <div class="footer-legal">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Disclaimer</a>
+    </div>
+
+    <div class="branch-table-wrap reveal">
+      <h3>Branch Coverage — FIC &amp; Member Companies</h3>
+      <div class="branch-table-scroll">
+        <table class="branch-table">
+          <thead>
+            <tr><th>Market</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="bt-icon">🇻🇳</span> Domestic</td>
+              <td><span class="bt-tag">HAN</span><span class="bt-tag">DLI</span><span class="bt-tag">DAD</span><span class="bt-tag">PQC</span></td>
+              <td><span class="bt-tag">CXR</span><span class="bt-tag">HPH</span><span class="bt-tag">VDH</span></td>
+              <td><span class="bt-tag">UIH</span><span class="bt-tag">VCA</span><span class="bt-tag">VII</span></td>
+              <td><span class="bt-tag bt-tag--gold">Sapa</span><span class="bt-tag bt-tag--gold">Dien Bien</span></td>
+            </tr>
+            <tr>
+              <td><span class="bt-icon">🌏</span> International</td>
+              <td><span style="color:#ccc;font-size:.8rem;">—</span></td>
+              <td><span class="bt-tag bt-tag--blue">BKK</span><span class="bt-tag bt-tag--blue">SIN</span><span class="bt-tag bt-tag--blue">KUL</span></td>
+              <td><span class="bt-tag bt-tag--blue">SEL</span><span class="bt-tag bt-tag--blue">NRT</span><span class="bt-tag bt-tag--blue">PEK</span></td>
+              <td><span class="bt-tag bt-tag--gold">SFS</span><span class="bt-tag bt-tag--gold">MEL</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARTNERS ===== -->
+<section id="partners" class="section partners">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label">Our Network</div>
+      <h2 class="section-title">Aviation &amp; Technology Partners</h2>
+      <p class="section-desc">Flyone Aviation Solutions — IATA Accredited Agent — partners with leading airlines, GDS systems, and travel platforms across Asia.</p>
+    </div>
+
+    <!-- AIRLINES -->
+    <div class="partner-category reveal">
+      <div class="pcat-header">
+        <div class="pcat-icon">
+          <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" fill="currentColor"/></svg>
+        </div>
+        <h4>Airlines</h4>
+        <div class="pcat-line"></div>
+      </div>
+      <div class="partners-grid">
+        <div class="airline-card" style="--brand:#006DB7;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>Vietnam Airlines</strong>
+            <span>National Carrier</span>
+          </div>
+          <div class="airline-badge">VN</div>
+        </div>
+        <div class="airline-card" style="--brand:#1B5E20;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>Bamboo Airways</strong>
+            <span>Vietnamese Carrier</span>
+          </div>
+          <div class="airline-badge">QH</div>
+        </div>
+        <div class="airline-card" style="--brand:#C62828;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>VietJet Air</strong>
+            <span>Low-cost Carrier</span>
+          </div>
+          <div class="airline-badge">VJ</div>
+        </div>
+        <div class="airline-card" style="--brand:#E65100;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>Pacific Airlines</strong>
+            <span>Vietnamese Carrier</span>
+          </div>
+          <div class="airline-badge">BL</div>
+        </div>
+        <div class="airline-card" style="--brand:#1A237E;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>VASCO</strong>
+            <span>Regional Carrier</span>
+          </div>
+          <div class="airline-badge">0V</div>
+        </div>
+        <div class="airline-card" style="--brand:#F57F17;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>Vietravel Airlines</strong>
+            <span>Charter Carrier</span>
+          </div>
+          <div class="airline-badge">VU</div>
+        </div>
+        <div class="airline-card" style="--brand:#D81B60;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>NOK Air</strong>
+            <span>Thai LCC</span>
+          </div>
+          <div class="airline-badge">DD</div>
+        </div>
+        <div class="airline-card" style="--brand:#283593;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>MAI</strong>
+            <span>Myanmar Airways Intl</span>
+          </div>
+          <div class="airline-badge">8M</div>
+        </div>
+        <div class="airline-card" style="--brand:#B71C1C;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>SpiceJet</strong>
+            <span>Indian LCC</span>
+          </div>
+          <div class="airline-badge">SG</div>
+        </div>
+        <div class="airline-card" style="--brand:#4527A0;">
+          <div class="airline-icon">
+            <svg viewBox="0 0 40 24" fill="none" width="40" height="24"><path d="M4 18 L16 6 L20 10 L30 4 L36 10 L24 20 Z" fill="currentColor" opacity=".8"/><path d="M4 20 L36 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="airline-info">
+            <strong>Air Premia</strong>
+            <span>Korean Carrier</span>
+          </div>
+          <div class="airline-badge">YP</div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <script src="main.js"></script>
+    <!-- GDS -->
+    <div class="partner-category reveal">
+      <div class="pcat-header">
+        <div class="pcat-icon" style="background:rgba(21,101,192,.12);color:#1565C0;">
+          <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="17.5" r="3.5" stroke="currentColor" stroke-width="2"/><line x1="20" y1="20" x2="22" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h4>GDS &amp; Technology Systems</h4>
+        <div class="pcat-line"></div>
+      </div>
+      <div class="partners-grid">
+        <div class="gds-card" style="--brand:#003DA5;">
+          <div class="gds-logo-letter" style="background:#003DA5;">S</div>
+          <div class="gds-info">
+            <strong>Sabre</strong>
+            <span>Global Distribution System</span>
+          </div>
+        </div>
+        <div class="gds-card" style="--brand:#00AEEF;">
+          <div class="gds-logo-letter" style="background:#00AEEF;">A</div>
+          <div class="gds-info">
+            <strong>Amadeus</strong>
+            <span>Global Distribution System</span>
+          </div>
+        </div>
+        <div class="gds-card" style="--brand:#004B87;">
+          <div class="gds-logo-letter" style="background:#004B87;">G</div>
+          <div class="gds-info">
+            <strong>Galileo by Travelport</strong>
+            <span>Global Distribution System</span>
+          </div>
+        </div>
+        <div class="gds-card" style="--brand:#003580;">
+          <div class="gds-logo-letter" style="background:#003580;font-size:.7rem;">IATA</div>
+          <div class="gds-info">
+            <strong>IATA Accredited</strong>
+            <span>International Air Transport Association</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Travel platforms -->
+    <div class="partner-category reveal">
+      <div class="pcat-header">
+        <div class="pcat-icon" style="background:rgba(230,81,0,.1);color:#E65100;">
+          <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+        </div>
+        <h4>Travel &amp; Booking Platforms</h4>
+        <div class="pcat-line"></div>
+      </div>
+      <div class="partners-grid">
+        <div class="gds-card" style="--brand:#E91E63;">
+          <div class="gds-logo-letter" style="background:#E91E63;">AG</div>
+          <div class="gds-info"><strong>Agoda</strong><span>Online Travel Platform</span></div>
+        </div>
+        <div class="gds-card" style="--brand:#FBC02D;">
+          <div class="gds-logo-letter" style="background:#FBC02D;color:#111;">EX</div>
+          <div class="gds-info"><strong>Expedia</strong><span>Online Travel Platform</span></div>
+        </div>
+        <div class="gds-card" style="--brand:#C62828;">
+          <div class="gds-logo-letter" style="background:#C62828;font-size:.7rem;">VNR</div>
+          <div class="gds-info"><strong>Vietnam Railways</strong><span>National Rail System</span></div>
+        </div>
+        <div class="gds-card" style="--brand:#111;">
+          <div class="gds-logo-letter" style="background:#111;">LA</div>
+          <div class="gds-info"><strong>Limitless Aviation</strong><span>Private Aviation</span></div>
+        </div>
+        <div class="gds-card" style="--brand:#0D47A1;">
+          <div class="gds-logo-letter" style="background:#0D47A1;font-size:.7rem;">HA</div>
+          <div class="gds-info"><strong>Hải Âu Aviation</strong><span>Seaplane Services</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section contact">
+  <div class="contact-bg-deco"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's Build the<br/>Future Together</h2>
+        <p>Whether you're an investor, business partner, or talent looking to join the FIC ecosystem, we'd love to connect.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div><strong>Headquarters</strong><p>Ho Chi Minh City, Vietnam</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
+            </div>
+            <div><strong>Email</strong><p>info@flyonecorp.com</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+            </div>
+            <div><strong>Phone</strong><p>+84 (0) 28 xxxx xxxx</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 2C12 2 16 8 16 12C16 16 12 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 2C12 2 8 8 8 12C8 16 12 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div><strong>Website</strong><p>flyonecorp.com</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+84 xxx xxx xxxx" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Area of Interest</label>
+            <select id="interest" name="interest">
+              <option value="">Select an option</option>
+              <option>Aviation Solutions (Flyone)</option>
+              <option>Travel &amp; Tourism (Travel One)</option>
+              <option>Real Estate &amp; Securities (FIC)</option>
+              <option>Cargo &amp; Logistics (FAS)</option>
+              <option>Technology Solutions (Flytech)</option>
+              <option>Car Rental &amp; Mobility (Carhub)</option>
+              <option>Investment Partnership</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            Send Message
+          </button>
+          <p class="form-note">We'll respond within 24 business hours.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <circle cx="50" cy="50" r="48" fill="#F5A800"/>
+            <polygon points="50,10 62,42 96,42 70,62 80,94 50,74 20,94 30,62 4,42 38,42" fill="#8B6200"/>
+            <text x="50" y="58" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="18" fill="#fff">FIC</text>
+          </svg>
+          <div>
+            <span class="footer-logo-name">FlyOne</span>
+            <span class="footer-logo-sub">Investment Corporation</span>
+          </div>
+        </div>
+        <p class="footer-desc">A leading business &amp; financial group building a thriving ecosystem across Aviation, Travel, Real Estate, Technology, Cargo &amp; Mobility.</p>
+        <p class="footer-tagline">✦ SUCCEED TOGETHER ✦</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn" class="social-link">in</a>
+          <a href="#" aria-label="Facebook" class="social-link">f</a>
+          <a href="#" aria-label="Website" class="social-link">W</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About FIC</a></li>
+          <li><a href="#vision">Vision &amp; Mission</a></li>
+          <li><a href="#milestones">Milestones</a></li>
+          <li><a href="#ecosystem">Our Ecosystem</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Member Companies</h4>
+        <ul>
+          <li><a href="#ecosystem">Flyone Aviation</a></li>
+          <li><a href="#ecosystem">Travel One</a></li>
+          <li><a href="#ecosystem">FAS Cargo Vietnam</a></li>
+          <li><a href="#ecosystem">Flytech Technology</a></li>
+          <li><a href="#ecosystem">Carhub · Elite24</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@flyonecorp.com">info@flyonecorp.com</a></li>
+          <li><a href="#contact">Get in Touch</a></li>
+          <li><a href="#partners">Our Partners</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 FlyOne Investment Corporation. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Disclaimer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
