@@ -70,10 +70,7 @@ const statsObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.3 });
 
-document.querySelectorAll('.vm-card, .value-card, .service-card, .portfolio-card, .team-card, .partner-logo').forEach(el => {
-  el.classList.add('reveal');
-  revealObserver.observe(el);
-});
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
 const statsSection = document.querySelector('.stats');
 if (statsSection) statsObserver.observe(statsSection);
